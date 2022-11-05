@@ -20,12 +20,10 @@
 
 #include <optix.h>
 
-
 NGP_NAMESPACE_BEGIN
 
 struct Raytrace {
-	struct Params
-	{
+	struct Params {
 		Eigen::Vector3f* ray_origins;
 		Eigen::Vector3f* ray_directions;
 		const Triangle* triangles;
